@@ -69,6 +69,40 @@ section {
     transition: .25s;
 }
 
+/*鼠标样式*/
+
+#g-pointer-1 {
+
+    display: none;
+
+}
+
+#g-pointer-2 {
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    width: 18px;
+
+    height: 18px;
+
+    transition: 0.05s linear;
+
+    pointer-events: none;
+
+    background: #ffffff40;
+
+    border-radius: 50%;
+
+    z-index: 9999999;
+
+}
+
+
+
 #bg {
     transform: scale(1.10);
     filter: blur(10px);
